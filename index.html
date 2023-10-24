@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SendX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://editor.unlayer.com/embed.js"></script>
+</head>
+<body>
+    <header>
+        <div id="upper-header">
+            <!-- <i class="fa-sharp fa-solid fa-paper-plane" id="logo"></i> -->
+            <img id="logo" src="./Images/paper_plane.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Campaigns ></a></li>
+                    <li><a href="#">Audience ></a></li>
+                    <li><a href="#">Automations ></a></li>
+                </ul>
+
+                <div class="nav-secondary">
+                    <ul>
+                        <li><a href="#"><i class="icon fa-solid fa-plus"></i></a></li>
+                        <li><a href="#"><i class="icon fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a href="#"><i class="icon fa-regular fa-bell"></i></a></li>
+                        <li><a href="#"><i class="icon fa-solid fa-bars"></i></a></li>
+                        <img id="profile_picture" src="./Images/katie_althen.jpg" alt="#">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div id="lower-header">
+            <p id="current_step_display" class="highlight">Type</p>
+            <div id="progress_bar">
+                <p class="step_name">Type</p>
+                <i class="icon fa-solid fa-chevron-right"></i>
+                <p class="step_name">Design</p>
+                <i class="icon fa-solid fa-chevron-right"></i>
+                <p class="step_name">Content</p>
+                <i class="icon fa-solid fa-chevron-right"></i>
+                <p class="step_name">Targeting</p>
+                <i class="icon fa-solid fa-chevron-right"></i>
+                <p class="step_name">Behaviour</p>
+                <i class="icon fa-solid fa-chevron-right"></i>
+                <p class="step_name">Success</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Type phase -->
+    <section id="step_Type" class="step_window active_step_window">
+        <div class="action">
+            <p class="highlight action_title">Select form type</p>
+            <p class="faint">what kind of form would you like to create?</p>
+            <div class="template_wrapper">
+                <div class="type_template">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <img src="./Images/type_template_pic_embeded.png" alt="">
+                    <p class="highlight template_name">Embeded Form</p>
+                    <p class="faint template_description">Create a form to embed<br>on your website</p>
+                </div>
+                <div class="type_template">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <img src="./Images/type_template_pic_landing.png" alt="">
+                    <p class="highlight template_name">Landing Page</p>
+                    <p class="faint template_description">Create a landing page<br>with a form</p>
+                </div>
+                <div class="type_template">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <img src="./Images/type_template_pic_popup.png" alt="">
+                    <p class="highlight template_name">Popup Form</p>
+                    <p class="faint template_description">Add a form that pops<br>up as box</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn_wrapper">
+            <button class="btn_next standard_input">Continue</button>
+        </div>
+    </section>
+
+    <!-- Design Phase -->
+    <section id="step_Design" class="step_window">
+        <div class="search_bar standard_input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="" type="text" placeholder="Search Templates...">
+        </div>
+        <div class="grid">
+            <div class="row">
+                <div class="cell">
+                    <div class="design_template btn_next">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="img_container">
+                            <img src="./Images/stone_lion.jpeg" alt="">
+                        </div>
+                    </div>
+                    <p class="template_name">Intro Bar</p>
+                </div>
+                <div class="cell">
+                    <div class="design_template btn_next">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="img_container">
+                            <img src="./Images/stone_lion.jpeg" alt="">
+                        </div>
+                    </div>
+                    <p class="template_name">Model Background Classic</p>
+                </div>
+                <div class="cell">
+                    <div class="design_template btn_next">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="img_container">
+                            <img src="./Images/stone_lion.jpeg" alt="">
+                        </div>
+                    </div>
+                    <p class="template_name">Model Left Image Mordern</p>
+                </div>
+                <div class="cell">
+                    <div id="anamoly_degign" class="design_template btn_next">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="img_container">
+                            <!-- <img src="./Images/stone_lion.jpeg" alt=""> -->
+                        </div>
+                    </div>
+                    <p class="template_name">Page Takeover Mordern Retro</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <div class="design_template btn_next">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="img_container">
+                            <img src="./Images/stone_lion.jpeg" alt="">
+                        </div>
+                    </div>
+                    <p class="template_name">Model</p>
+                </div>
+                <div class="cell">
+                    <div class="design_template btn_next">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="img_container">
+                            <img src="./Images/stone_lion.jpeg" alt="">
+                        </div>
+                    </div>
+                    <p class="template_name">Letter</p>
+                </div>
+                <div class="cell">
+                    <div class="design_template btn_next">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="img_container">
+                            <img src="./Images/stone_lion.jpeg" alt="">
+                        </div>
+                    </div>
+                    <p class="template_name">Model Background Mordern</p>
+                </div>
+                <div class="cell">
+                    <div class="design_template btn_next">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="img_container">
+                            <img src="./Images/stone_lion.jpeg" alt="">
+                        </div>
+                    </div>
+                    <p class="template_name">Slider Mordern</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Phase -->
+    <section id="step_Content" class="step_window">
+        <div id="content_substitute_btn_wrapper"> <!--The custome go back black and green-->
+            <button class="btn_prev"><i class="fa-solid fa-chevron-left"></i>Back</button>
+            <div class="saving">
+                <input id="unlayer_file_name" type="text">
+                <i class="fa-solid fa-pen"></i>
+            </div>
+            <button class="btn_next standard_input">Save & Continue</button>
+        </div>
+        <section id="editor"></section>
+    </section>
+
+    <!-- Targeting phase and Behaviour phase -->
+    <section id="step_Targeting" class="step_window">
+        <div class="action">
+            <p class="highlight action_title">Show the popup when visitor</p>
+            <div class="option_wrapper">
+                <i class="checkbox fa-solid fa-circle-dot"></i>
+                <p>Enters website</p>
+            </div>
+            <div class="option_wrapper">
+                <i class="checkbox fa-solid fa-circle-dot"></i>
+                <p>Exits website</p>
+            </div>
+            <div class="option_wrapper">
+                <i class="checkbox fa-solid fa-circle-dot"></i>
+                <p>On</p>
+                <input class="standard_input number_selector" type="text">
+                <p>page scroll</p>
+            </div>
+            <div class="option_wrapper">
+                <i class="checkbox fa-solid fa-circle-dot"></i>
+                <p>After</p>
+                <input class="standard_input number_selector" type="text">
+                <p>seconds on website</p>
+            </div>
+        </div>
+        <div id="step_Behaviour" class="action">
+            <div id="behaviour_advanced_dropdown">
+                <p>Advanced</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="action hidden">
+                <p class="highlight action_title">How often to show the popup</p>
+                <p class="faint action_description">Set the peroid when you want to show the popup to the same visitor if they didn't suscribe</p>
+                <div class="option_wrapper">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <p>Enery page view</p>
+                </div>
+                <div class="option_wrapper">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <p>Every new browser session</p>
+                </div>
+                <div class="option_wrapper">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <p>After <input class="standard_input number_selector" type="number"> days</p>
+                </div>
+            </div>
+            <div class="action hidden">
+                <p class="highlight action_title">When to stop showing the group</p>
+                <p class="action_description"></p>
+                <div class="option_wrapper">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <p>Never</p>
+                </div>
+                <div class="option_wrapper">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <p>If the visitor has successfully completed the action</p>
+                </div>
+                <div class="option_wrapper">
+                    <i class="checkbox fa-solid fa-circle-dot"></i>
+                    <p>If the visitor has successfully completed the action or the pop-up has been shown</p>
+                    <input class="standard_input number_selector" type="number">
+                    <p>times</p>
+                </div>
+            </div>
+        </div>
+        <div class="btn_wrapper">
+            <button class="btn_prev">Go back</button>
+            <button class="btn_next standard_input">Continue</button>
+        </div>
+    </section>
+
+    <!-- Success Phase -->
+    <section id="step_Success" class="step_window">
+        <div class="action">
+            <p class="highlight action_title">What happens after displaying success screen?</p>
+            <p class="faint action_description">This is the screen see after submitting your form.</p>
+            <div class="option_wrapper">
+                <i class="checkbox fa-solid fa-circle-dot"></i>
+                <p>Do nothing</p>
+            </div>
+            <div class="option_wrapper">
+                <i class="checkbox fa-solid fa-circle-dot"></i>
+                <p>Close pop up after</p>
+                <input class="standard_input number_selector" type="number">
+                <p>seconds</p>
+            </div>
+            <div class="option_wrapper">
+                <i class="checkbox fa-solid fa-circle-dot"></i>
+                <p>Redurect to URL</p>
+            </div>
+        </div>
+        <div class="btn_wrapper">
+            <p id="invalid_selection"></p>
+            <div>
+                <button class="btn_prev">Go back</button>
+                <button id="btn_finish" class="standard_input">Finish</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="step_End" class="step_window">
+        <div class="action">
+            <p class="action-title highlight">Your response has been recorded</p>
+            <p class="action_description faint">Thankyou for cooperating with us</p>
+        </div>
+        <div class="btn_wrapper">
+            <button class="btn_prev">Edit response</button>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://editor.unlayer.com/embed.js"></script>
+</body>
+</html>
