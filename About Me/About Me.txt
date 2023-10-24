@@ -1,0 +1,39 @@
+This file contains my personal information and expreiences...
+The file which strictly contains the information regarding project is tagged as 'README' in the base folder
+
+
+Hi my name is Lukesh Patil
+a student of Indian Institute of Information Technology Allahabad
+Roll No :. IIT2020101
+
+
+
+
+
+I have intrest in feild of web development of any development for that matter.
+I had done web development projects in past.
+Even tried freelancing for once, I failed but learnt a lot about lot of things.
+"JX Power" is my project that I am proud of. I created it from sctratch, all by myself... (no copying from github)
+
+
+I am very intrested for this job and I have my reasons for it. Second is obiviously I want a job but the even bigger First reason why is I want this job specifically is... The description "SendX is the right place for folks who want to build things and work on interesting engineering problems with high ownership and a bias for action" just intreguiged me more. This feels like the right place for me to work. "high ownership and high bias for action" YES PLEASE.
+
+
+I have firm grasp over Data Atructures and Algorithms DSA
+and I also have adequate knowledge of HTML CSS and JAVASCRIPT to get me started
+I also happen to knnow SQL if needed although had worked more with non relational datebases as for the simplicity
+I also gave android development a try so a little bit knowledge about mobile applications (not much)
+But espicially instrested in web development
+
+
+I have knowledge about backend javascript (as of my project JX Power) NodeJS using MERN stack
+I didn't learn Vue though. But no worries how hard can it be?
+I mean it's just syntax that changes. I do have a deep understanding of HTML CSS and JAVASCRIPT all vanilla.
+I am learning Vue for this project. but decided to not take any risks and continue in vanilla for this project
+It's just a matter of a few days may be a week or two that I get used to the syntax of Vue provided by basic knowledge of core concepts
+I am currently learning Vue from youtube... regardless it will be a greate skill to have in future
+
+
+I am very much intrested in this feild of web development and in this job application specifically for that matter
+I request to consider my submission positively. I really gave it all I got and hoping for best
+
